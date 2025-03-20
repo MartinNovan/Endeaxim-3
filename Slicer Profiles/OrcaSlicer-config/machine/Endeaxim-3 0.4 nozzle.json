@@ -1,0 +1,131 @@
+{
+   "bed_custom_model" : "C:\\\\Program Files\\\\Prusa3D\\\\PrusaSlicer\\\\resources\\\\profiles\\\\Creality\\\\ender3_bed.stl",
+   "bed_custom_texture" : "C:\\\\Program Files\\\\Prusa3D\\\\PrusaSlicer\\\\resources\\\\profiles\\\\Creality\\\\ender3.svg",
+   "before_layer_change_gcode" : [
+      ";BEFORE_LAYER_CHANGE\nG92 E0\n"
+   ],
+   "change_filament_gcode" : [
+      ""
+   ],
+   "default_filament_profile" : "Generic PLA @CREALITY",
+   "default_print_profile" : "\"0.16 mm OPTIMAL (0.4 mm nozzle) @CREALITY\"",
+   "deretraction_speed" : "0",
+   "from" : "User",
+   "gcode_flavor" : "klipper",
+   "inherits" : "",
+   "is_custom_defined" : "1",
+   "layer_change_gcode" : [
+      ";AFTER_LAYER_CHANGE\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}"
+   ],
+   "machine_end_gcode" : [
+      "END_GCODE"
+   ],
+   "machine_max_acceleration_e" : [
+      "2500",
+      "2500"
+   ],
+   "machine_max_acceleration_extruding" : [
+      "2000",
+      "2000"
+   ],
+   "machine_max_acceleration_retracting" : [
+      "1200",
+      "1200"
+   ],
+   "machine_max_acceleration_travel" : [
+      "2000",
+      "2000"
+   ],
+   "machine_max_acceleration_x" : [
+      "2500",
+      "2500"
+   ],
+   "machine_max_acceleration_y" : [
+      "2500",
+      "2500"
+   ],
+   "machine_max_acceleration_z" : [
+      "200"
+   ],
+   "machine_max_jerk_e" : [
+      "10"
+   ],
+   "machine_max_jerk_x" : [
+      "8"
+   ],
+   "machine_max_jerk_y" : [
+      "8"
+   ],
+   "machine_max_jerk_z" : [
+      "2"
+   ],
+   "machine_max_speed_e" : [
+      "100",
+      "100"
+   ],
+   "machine_max_speed_x" : [
+      "200",
+      "160"
+   ],
+   "machine_max_speed_y" : [
+      "200",
+      "160"
+   ],
+   "machine_max_speed_z" : [
+      "40",
+      "40"
+   ],
+   "machine_min_extruding_rate" : [
+      "0"
+   ],
+   "machine_min_travel_rate" : [
+      "0"
+   ],
+   "machine_pause_gcode" : [
+      "PAUSE"
+   ],
+   "machine_start_gcode" : [
+      "START_GCODE T_BED={first_layer_bed_temperature[0]} T_EXTRUDER={first_layer_temperature[0]} layer_count={total_layer_count}"
+   ],
+   "max_layer_height" : "0.3",
+   "min_layer_height" : "0.07",
+   "name" : "Endeaxim-3 0.4 nozzle",
+   "nozzle_diameter" : "0.4",
+   "print_host" : "",
+   "printable_area" : [
+      "0x0",
+      "235x0",
+      "235x235",
+      "0x235"
+   ],
+   "printable_height" : "250",
+   "printer_notes" : [
+      "Don't remove the following keywords! These keywords are used in the \"compatible printer\" condition of the print and filament profiles to link the particular print and filament profiles to this printer profile.\nPRINTER_VENDOR_CREALITY\nPRINTER_MODEL_ENDER3\nPRINTER_HAS_ULTRADETAIL"
+   ],
+   "printer_settings_id" : "Endeaxim-3 0.4 nozzle",
+   "printer_technology" : "FFF",
+   "printer_variant" : "0.4",
+   "retract_before_wipe" : "80%",
+   "retract_length_toolchange" : "1",
+   "retract_restart_extra" : "0",
+   "retract_restart_extra_toolchange" : "0",
+   "retract_when_changing_layer" : "1",
+   "retraction_length" : "0.7",
+   "retraction_minimum_travel" : "1.5",
+   "retraction_speed" : "35",
+   "silent_mode" : "0",
+   "single_extruder_multi_material" : "0",
+   "template_custom_gcode" : [
+      ""
+   ],
+   "thumbnails" : [
+      "32x32/PNG",
+      " 400x300/PNG"
+   ],
+   "thumbnails_format" : "PNG",
+   "use_firmware_retraction" : "0",
+   "use_relative_e_distances" : "1",
+   "version" : "1.6.0.0",
+   "wipe" : "1",
+   "z_hop" : "0.2"
+}
