@@ -17,9 +17,7 @@
     "brim_object_gap": "0.1",
     "brim_type": "outer_only",
     "brim_width": "0",
-    "compatible_printers": [
-        "Endeaxim-3 InputShaper 0.4 nozzle"
-    ],
+    "compatible_printers" : "\"Endeaxim-3 0.4 nozzle\"",
     "compatible_printers_condition": "",
     "counterbore_hole_bridging": "none",
     "default_acceleration": "4000",
