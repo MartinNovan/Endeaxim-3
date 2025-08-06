@@ -1,19 +1,24 @@
-# Endeaxim-3 - Ender 3 Upgrade Project (BETA)
+# Endeaxim-3 - Ender 3 Upgrade Project (Latest)
 
 ## Overview
-Endeaxim-3 is a comprehensive upgrade package for the Creality Ender 3 3D printer, transforming it into a high-performance machine. This BETA version includes essential upgrades and lays the foundation for future expansions.
+![Preview image](./Images/Preview.PNG)
+Endeaxim-3 is a comprehensive upgrade package for the Creality Ender 3 3D printer, transforming it into a high-performance machine. This latest version includes essential upgrades and lays the foundation for future expansions.
 
-## Current Features (BETA)
+## Current Features (Latest)
 - **Dual Z-axis Upgrade**: Improved stability and print quality
 - **Linear Rail System**: 
   - 12 high-quality [linear bearings](https://www.prusa3d.com/category/mk3-s-spare-parts/?page=2) (Prusa MK3/MK2 compatible)
     - X-axis now uses 4 bearings for better stability
   - Precision [linear rods](https://www.prusa3d.com/category/mk3-s-spare-parts/?page=3) (Prusa MK3/MK2 compatible)
-- **Control Board**: Bigtreetech SKR 2 mainboard
-- **Extruder**: Creality Sprite Extruder
-- **Power Supply**: Meanwell power supply
-- **Firmware**: Klipper firmware running on Raspberry Pi
-- **Improved Precision**: All parts now available in STEP format
+- **Default Control Board**: Bigtreetech SKR 2 mainboard
+  - **Optional Board**: Bigtreetech SKR Mini E3 V3.0 or similar with same screw holes
+- **Default Extruder**: Creality Sprite Extruder
+ - **Optional Extruder**: Creality Ender 3 stock extruder or similar with same screw holes
+- **Default Power Supply**: Meanwell power supply
+ - **Optional Power Supply**: Creality Ender 3 stock power supply 
+- **Default Firmware**: Klipper firmware running on Raspberry Pi
+  - **Optional Firmware**: Marlin firmware running on Controller board
+- **Improved Precision**: All printable parts now available in STEP format
 
 ## Installation Requirements
 - Creality Ender 3 (base model)
@@ -26,17 +31,11 @@ Endeaxim-3 is a comprehensive upgrade package for the Creality Ender 3 3D printe
 - Raspberry Pi (for Klipper)
 - Printed parts
 
-## Supported Components (BETA)
-- **Mainboards**: SKR 2
-- **Extruders**: Creality Sprite Extruder
-
 ## Future Plans
 - Multi-board support (additional mainboards)
 - Multi-extruder support
 - Enhanced cooling for Sprite Extruder
-- Marlin firmware configuration
 - Comprehensive assembly guide
-- Electronic housing with enclosure support (planned for RELEASE version)
 
 ## Installation Notes
 1. Ensure all components are properly aligned during assembly
@@ -55,14 +54,11 @@ Endeaxim-3 is a comprehensive upgrade package for the Creality Ender 3 3D printe
 - Requires manual calibration
 - Documentation still in progress
 
-## Contributing
-As this is an BETA release, feedback and contributions are welcome. Please report any issues or suggestions through the project's repository.
-
 ## License
 This project is licensed under the GNU Affero General Public License v3.0. See the [LICENSE](./LICENSE) file for more information.
 
 ## Disclaimer
-This is an BETA version. Use at your own risk. The developers are not responsible for any damage to equipment or personal injury resulting from the use of this upgrade package.
+The developers are not responsible for any damage to equipment or personal injury resulting from the use of this upgrade package.
 
 ## Printing Instructions
 - Print all parts with minimum:
@@ -74,9 +70,4 @@ This is an BETA version. Use at your own risk. The developers are not responsibl
 
 ## Configuration
 - **Klipper Configuration**: [Klipper Config Link](./Klipper/Configuration/)
-- **Marlin Configuration**: Planned for future release
-
-## Versioning
-Current Version: BETA  
-[View all versions and releases](https://github.com/MartinNovan/Endeaxim-3/releases)  
-[Download previous versions](./Versions/)
+- **Marlin Configuration**: [Marlin Config Link](./Marlin/Configuration/)
