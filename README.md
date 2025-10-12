@@ -54,12 +54,6 @@ Endeaxim-3 is a comprehensive upgrade package for the Creality Ender 3 3D printe
 - Requires manual calibration
 - Documentation still in progress
 
-## License
-This project is licensed under the GNU Affero General Public License v3.0. See the [LICENSE](./LICENSE) file for more information.
-
-## Disclaimer
-The developers are not responsible for any damage to equipment or personal injury resulting from the use of this upgrade package.
-
 ## Printing Instructions
 - Print all parts with minimum:
   - 3 perimeters
@@ -68,6 +62,11 @@ The developers are not responsible for any damage to equipment or personal injur
   - Recommended materials: PETG or ABS for better heat resistance
 - Printable parts available at: [Printables Link](./Printable%20Parts/)
 
-## Configuration
-- **Klipper Configuration**: [Klipper Config Link](./Klipper/Configuration/)
-- **Marlin Configuration**: [Marlin Config Link](./Marlin/Configuration/)
+## Firmware Options
+- Please see this [README](./Firmwares/README.md) for firmware options and links to dedicated repositories for Klipper and Marlin firmware.
+
+## License
+This project is licensed under the GNU Affero General Public License v3.0. See the [LICENSE](./LICENSE) file for more information.
+
+## Disclaimer
+The developers are not responsible for any damage to equipment or personal injury resulting from the use of this upgrade package.
