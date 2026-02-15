@@ -20,5 +20,4 @@ This repository no longer includes any binary or source firmware files — all d
 
 ---
 ### Acknowledgements
-Thanks to everyone who contributed to the original firmware and helped migrate to dedicated repositories.
 If you have questions or want to contribute, please use the Issues section in the corresponding firmware repo.
