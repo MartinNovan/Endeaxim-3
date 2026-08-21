@@ -6,7 +6,7 @@
 ---
 
 ## Overview
-![Preview image](./Assets/Preview.PNG)
+![Preview image](./Assets/Preview.png)
 Endeaxim-3 is a comprehensive upgrade package for the Creality Ender 3 3D printer, transforming it into a high-performance machine. This latest version includes essential upgrades and lays the foundation for future expansions.
 
 ## Current Features (Latest)
